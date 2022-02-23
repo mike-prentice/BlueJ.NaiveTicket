@@ -79,7 +79,9 @@ public class TicketMachine
         ticketNumber++;
         return ticketNumber;
     }
-    
+    public Integer getTotal() {
+        return total;
+    }
 
     /**
      * Print a ticket.
